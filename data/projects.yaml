@@ -27,6 +27,27 @@ fulltime:
     impact: "Ensured transparency, security, and traceability in mortgage insurance across multiple institutions."
     link: ""
 
+  - title: "RBC-Aviva Insurance Quoter"
+    role: "Lead Developer — Aviva Digital Garage"
+    description: "Key contributor to the RBC-Aviva merger insurance quote platform, leading the front-end deployment of the customer-facing auto and home insurance quoter. Built a mobile-first application integrated with Guidewire policy center, still in production today."
+    tech: ["Node.js", "Angular", "Guidewire", "Mobile-First", "Insurance APIs"]
+    impact: "Deployed a production insurance quoter serving RBC customers — still live and actively used years after launch."
+    link: "https://www1.myrbcsso.rbcinsurance.com/ada/quoter?productType=auto&campaignID=SEMAON2&Lang=EN"
+
+  - title: "Enterprise Reporting & Data Visualization"
+    role: "Technical Lead — Mark 3 Research"
+    description: "Built enterprise reporting and data visualization solutions for client projects using IBM Cognos, Qlik, and Tableau. Led mobile application prototyping and delivery using Node.js and Ionic."
+    tech: ["IBM Cognos", "Qlik", "Tableau", "Node.js", "Ionic"]
+    impact: "Delivered production reporting dashboards and mobile prototypes across multiple client engagements."
+    link: ""
+
+  - title: "Hospital BPM & Cancer Data Workflows"
+    role: "Intern — Ottawa Hospital"
+    description: "Developed and deployed business process solutions on IBM BPM for hospital operations. Built HL7 cancer-formatted data workflows using Mirth Connect for cancer treatment data integration across hospital systems."
+    tech: ["IBM BPM", "HL7", "Mirth Connect", "JavaScript"]
+    impact: "Introduced JavaScript expertise to the BPM team and delivered HL7 integration workflows for cancer treatment data."
+    link: ""
+
 consulting:
   - title: "Ontario Radiation Treatment Repository"
     role: "Consultant — Technical Discovery Lead"
