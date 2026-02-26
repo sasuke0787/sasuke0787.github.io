@@ -16,7 +16,7 @@ theme = "portfolio-theme"
 [menu]
   [[menu.main]]
     name = "About"
-    url = "#about"
+    url = "#hero"
     weight = 1
   [[menu.main]]
     name = "Domains"
