@@ -1,0 +1,170 @@
+{{ define "main" }}
+
+<!-- HERO SECTION -->
+<section class="hero" id="hero">
+  <div class="hero__bg"></div>
+  <div class="hero__content">
+    <p class="hero__greeting">Hello, I'm</p>
+    <h1 class="hero__name">{{ .Site.Params.author }}</h1>
+    <p class="hero__tagline">{{ .Site.Params.tagline }}</p>
+    <p class="hero__subtitle">{{ .Site.Params.subtitle }}</p>
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">View My Work</a>
+      <a href="#contact" class="btn btn--outline">Get In Touch</a>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <span>Scroll</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="section about" id="about">
+  <div class="container">
+    <h2 class="section__title">About Me</h2>
+    <div class="about__content">
+      <div class="about__text">
+        {{ .Site.Data.about.bio | markdownify }}
+      </div>
+      <div class="about__highlights">
+        {{ range .Site.Data.about.highlights }}
+        <div class="about__highlight">
+          <span class="about__highlight-number">{{ .number }}</span>
+          <span class="about__highlight-label">{{ .label }}</span>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOMAIN EXPERTISE SECTION -->
+<section class="section domains" id="domains">
+  <div class="container">
+    <h2 class="section__title">Domain Expertise</h2>
+    <p class="section__subtitle">Cross-industry experience that informs better technical decisions</p>
+    <div class="domains__grid">
+      {{ range .Site.Data.domains.items }}
+      <div class="domain-card">
+        <div class="domain-card__icon">{{ .icon }}</div>
+        <h3 class="domain-card__title">{{ .title }}</h3>
+        <p class="domain-card__description">{{ .description }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="section projects" id="projects">
+  <div class="container">
+    <h2 class="section__title">Projects & Technical Work</h2>
+    <p class="section__subtitle">Selected projects showcasing architecture, implementation, and impact</p>
+    <div class="projects__grid">
+      {{ range .Site.Data.projects.items }}
+      <div class="project-card">
+        <div class="project-card__header">
+          <h3 class="project-card__title">{{ .title }}</h3>
+          <span class="project-card__role">{{ .role }}</span>
+        </div>
+        <p class="project-card__description">{{ .description }}</p>
+        <div class="project-card__tech">
+          {{ range .tech }}
+          <span class="tag">{{ . }}</span>
+          {{ end }}
+        </div>
+        <div class="project-card__impact">
+          <strong>Impact:</strong> {{ .impact }}
+        </div>
+        {{ if .link }}
+        <a href="{{ .link }}" class="project-card__link" target="_blank" rel="noopener">View Project →</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE SECTION -->
+<section class="section experience" id="experience">
+  <div class="container">
+    <h2 class="section__title">Experience & Leadership</h2>
+    <div class="timeline">
+      {{ range .Site.Data.experience.items }}
+      <div class="timeline__item">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <div class="timeline__header">
+            <h3 class="timeline__title">{{ .title }}</h3>
+            <span class="timeline__company">{{ .company }}</span>
+            <span class="timeline__period">{{ .period }}</span>
+          </div>
+          <p class="timeline__description">{{ .description }}</p>
+          {{ if .highlights }}
+          <ul class="timeline__highlights">
+            {{ range .highlights }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          {{ if .team_size }}
+          <span class="timeline__team">Team: {{ .team_size }}</span>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="section skills" id="skills">
+  <div class="container">
+    <h2 class="section__title">Skills & Technologies</h2>
+    <div class="skills__grid">
+      {{ range .Site.Data.skills.categories }}
+      <div class="skill-group">
+        <h3 class="skill-group__title">{{ .name }}</h3>
+        <div class="skill-group__items">
+          {{ range .items }}
+          <span class="skill-tag">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <h2 class="section__title">Get In Touch</h2>
+    <p class="section__subtitle">Interested in working together? I'd love to hear from you.</p>
+    <div class="contact__links">
+      <a href="mailto:{{ .Site.Params.email }}" class="contact__item">
+        <span class="contact__icon">✉</span>
+        <span class="contact__label">Email</span>
+        <span class="contact__value">{{ .Site.Params.email }}</span>
+      </a>
+      <a href="{{ .Site.Params.github }}" target="_blank" rel="noopener" class="contact__item">
+        <span class="contact__icon">⌨</span>
+        <span class="contact__label">GitHub</span>
+        <span class="contact__value">GitHub</span>
+      </a>
+      <a href="{{ .Site.Params.linkedin }}" target="_blank" rel="noopener" class="contact__item">
+        <span class="contact__icon">🔗</span>
+        <span class="contact__label">LinkedIn</span>
+        <span class="contact__value">Connect with me</span>
+      </a>
+    </div>
+    {{ if .Site.Params.resumeURL }}
+    <div class="contact__resume">
+      <a href="{{ .Site.Params.resumeURL }}" class="btn btn--primary">Download Resume</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

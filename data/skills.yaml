@@ -1,0 +1,19 @@
+categories:
+  - name: "Languages"
+    items: ["TypeScript", "JavaScript", "Python", "Java", "Rust", "Go", "Solidity", "Move"]
+  - name: "Frameworks & Libraries"
+    items: ["React", "Next.js", "Svelte", "Spring Boot", "Node.js", "Angular", "Remix", "Ionic"]
+  - name: "Blockchain & Web3"
+    items: ["Ethereum", "EVM L2 Rollups", "Hardhat", "Hyperledger", "Corda", "Quorum", "ethers.js", "web3.js"]
+  - name: "Cloud & Infrastructure"
+    items: ["AKS", "AWS", "GCP", "Docker", "Kubernetes", "Terraform", "Ansible", "GitOps"]
+  - name: "Data & Messaging"
+    items: ["Kafka", "Cassandra", "PostgreSQL", "MongoDB", "Redis", "Databricks", "MySQL"]
+  - name: "AI & LLM Systems"
+    items: ["LangChain", "RAG", "Embeddings", "MCP", "Context Engineering", "MLOps"]
+  - name: "APIs & Protocols"
+    items: ["REST", "GraphQL", "gRPC", "SOAP", "ERC-20", "ERC-721", "ERC-1155"]
+  - name: "DevOps & Observability"
+    items: ["CI/CD", "Jenkins", "Datadog", "Sentry", "GitHub Actions"]
+  - name: "Leadership & Practices"
+    items: ["System Design", "Enterprise Architecture (TOGAF)", "Agile/Scrum", "Technical Mentoring", "Stakeholder Alignment"]

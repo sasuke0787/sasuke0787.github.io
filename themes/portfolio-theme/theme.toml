@@ -1,0 +1,7 @@
+# theme.toml
+name = "Portfolio Theme"
+license = "MIT"
+description = "A professional portfolio theme for software engineers and technical leaders"
+
+[author]
+  name = "Sasuke"

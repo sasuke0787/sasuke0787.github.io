@@ -1,0 +1,16 @@
+bio: |
+  I'm a full-stack engineer and systems architect with over 16 years of experience building scalable payment platforms, blockchain protocols, and AI-integrated applications. I thrive on connecting backend infrastructure with user-facing experiences — designing APIs, dashboards, and developer tools that power financial ecosystems.
+
+  My career has spanned central banks, global financial institutions, and open-source protocol engineering. I hold a PhD in Computer Engineering from the University of Toronto, where my research focused on verification and optimization of smart contracts using model checking frameworks.
+
+  I blend deep technical expertise in cloud, DevOps, and distributed systems with a strong track record of building and mentoring engineering teams. Whether I'm defining engineering strategy for a settlement platform at the Bank of International Settlements or architecting an AI-augmented governance layer for blockchain ecosystems, I bring the same rigor and curiosity to every challenge.
+
+highlights:
+  - number: "16+"
+    label: "Years of Experience"
+  - number: "PhD"
+    label: "Computer Engineering, UofT"
+  - number: "10K+"
+    label: "TPS Throughput Achieved"
+  - number: "TOGAF"
+    label: "Enterprise Architect"

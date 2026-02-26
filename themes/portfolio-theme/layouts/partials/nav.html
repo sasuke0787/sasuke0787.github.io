@@ -1,0 +1,13 @@
+<header class="nav" id="nav">
+  <div class="nav__container">
+    <a href="/" class="nav__logo">{{ .Site.Params.author }}</a>
+    <button class="nav__toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__menu">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="nav__link">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

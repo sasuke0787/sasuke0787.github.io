@@ -1,0 +1,42 @@
+items:
+  - title: "Cloud-Native Settlement Platform"
+    role: "Advisor & Engineering Leader"
+    description: "Defined and executed engineering strategy for a modular settlement platform and ledger infrastructure at the Bank of International Settlements, designed for deterministic processing, auditability, and correctness guarantees."
+    tech: ["Kafka", "Cassandra", "Redis", "AKS", "CI/CD"]
+    impact: "Achieved 10,000+ TPS throughput with full observability, serving as critical infrastructure for international financial settlement."
+    link: ""
+
+  - title: "Plebis — Blockchain Governance Platform"
+    role: "Founder & Chief Architect"
+    description: "Architected an AI-augmented governance layer for Cosmos-based blockchain ecosystems, integrating on-chain proposal data, off-chain signals, and LLM-based summarization workflows."
+    tech: ["Kafka", "PostgreSQL", "LangChain", "RAG", "Remix"]
+    impact: "Built decision-support modules using embeddings and retrieval-augmented generation, with reputation scoring models based on validator behavior."
+    link: ""
+
+  - title: "OpenLibra Protocol"
+    role: "Founding Engineer & Technical Leader"
+    description: "Part of the founding engineering team building OpenLibra, an open-source fork of Facebook's Libra with an active mainnet token economy. Contributed to consensus, governance, and Move-based smart contracts."
+    tech: ["Move", "Rust", "Distributed Systems", "Consensus"]
+    impact: "Led architectural decisions within a global open-source community, balancing scalability, security, and decentralization."
+    link: ""
+
+  - title: "CBDC Dual Ledger Project"
+    role: "Fintech Researcher & Architect"
+    description: "Led architectural design for a consortium-driven bond settlement system using wholesale Central Bank Digital Currency at the Bank of Canada. Evaluated DLT and non-DLT implementation approaches."
+    tech: ["DLT", "Smart Contracts", "Oracle Systems", "Research"]
+    impact: "Delivered comprehensive feasibility analysis and oracle business model comparison informing CBDC implementation strategy."
+    link: ""
+
+  - title: "DLT Mortgage Insurance Tracing"
+    role: "Blockchain Lead"
+    description: "Led technical development of a distributed ledger-based tracing mechanism for mortgage insurance payments at Scotiabank, in collaboration with Ontario financial institutions and Aviva Insurance."
+    tech: ["Ethereum", "Solidity", "Digital Wallets", "Hyperledger"]
+    impact: "Ensured transparency, security, and traceability in mortgage insurance across multiple institutions."
+    link: ""
+
+  - title: "Rewire — Identity Management System"
+    role: "Developer"
+    description: "Developed a blockchain-based identity management system at the Crypto Chicks Hackathon, winning first place for innovative use of decentralized identity."
+    tech: ["Blockchain", "Identity", "Smart Contracts"]
+    impact: "Winner of Crypto Chicks Hackathon 2019."
+    link: ""
