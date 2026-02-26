@@ -1,41 +1,38 @@
 {{ define "main" }}
 
-<!-- HERO SECTION -->
+<!-- HERO + ABOUT COMBINED SECTION -->
 <section class="hero" id="hero">
   <div class="hero__bg"></div>
-  <div class="hero__content">
-    <p class="hero__greeting">Hello, I'm</p>
-    <h1 class="hero__name">{{ .Site.Params.author }}</h1>
-    <p class="hero__tagline">{{ .Site.Params.tagline }}</p>
-    <p class="hero__subtitle">{{ .Site.Params.subtitle }}</p>
-    <div class="hero__cta">
-      <a href="#projects" class="btn btn--primary">View My Work</a>
-      <a href="#contact" class="btn btn--outline">Get In Touch</a>
+  <div class="hero__split">
+    <div class="hero__left">
+      <p class="hero__greeting">Hello, I'm</p>
+      <h1 class="hero__name">{{ .Site.Params.author }}</h1>
+      <p class="hero__tagline">{{ .Site.Params.tagline }}</p>
+      <div class="hero__bio">
+        {{ .Site.Data.about.bio | markdownify }}
+      </div>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero__right">
+      <div class="hero__photo">
+        <img src="/images/headshot.jpg" alt="{{ .Site.Params.author }}" class="hero__photo-img" />
+      </div>
+      <div class="hero__highlights">
+        {{ range .Site.Data.about.highlights }}
+        <div class="hero__highlight">
+          <span class="hero__highlight-number">{{ .number }}</span>
+          <span class="hero__highlight-label">{{ .label }}</span>
+        </div>
+        {{ end }}
+      </div>
     </div>
   </div>
   <div class="hero__scroll">
     <span>Scroll</span>
     <div class="hero__scroll-line"></div>
-  </div>
-</section>
-
-<!-- ABOUT SECTION -->
-<section class="section about" id="about">
-  <div class="container">
-    <h2 class="section__title">About Me</h2>
-    <div class="about__content">
-      <div class="about__text">
-        {{ .Site.Data.about.bio | markdownify }}
-      </div>
-      <div class="about__highlights">
-        {{ range .Site.Data.about.highlights }}
-        <div class="about__highlight">
-          <span class="about__highlight-number">{{ .number }}</span>
-          <span class="about__highlight-label">{{ .label }}</span>
-        </div>
-        {{ end }}
-      </div>
-    </div>
   </div>
 </section>
 
