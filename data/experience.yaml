@@ -33,15 +33,6 @@ items:
       - "Taught DevOps in Blockchain — CI/CD pipelines, testing frameworks, and deployment strategies for dApp development"
       - "Designed and delivered Building Scalable Blockchain Apps course covering architecture, performance, and real-world patterns"
 
-  - title: "Consultant — Technical Discovery & Architecture"
-    company: "OGGN Inc. (Ontario Health / Radiation Treatment Program)"
-    period: "2024"
-    description: "Led technical discovery for Ontario Health's provincial Radiation Treatment Repository (RT-r), a centralized DICOM-RT platform for radiation treatment data sharing across Ontario cancer centers."
-    highlights:
-      - "Hosted and facilitated requirements convergence workshops across multiple cancer centers (Kingston HSC, Thunder Bay)"
-      - "Designed technical discovery questionnaires covering workflow, data management, and infrastructure"
-      - "Aligned stakeholders from Ontario Health, OCINet, and radiotherapy facilities on architecture and implementation strategy"
-
   - title: "Fintech Researcher — CBDC Research"
     company: "Bank of Canada"
     period: "Apr 2021 — Jan 2023"
