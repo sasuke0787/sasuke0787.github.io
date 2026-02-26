@@ -105,3 +105,12 @@ items:
       - "Introduced JavaScript expertise to the BPM development team"
       - "Built HL7-formatted cancer data workflows using Mirth Connect"
       - "Deployed IBM BPM business processes for hospital operational workflows"
+
+  - title: "Senior Software Engineer"
+    company: "Accenture"
+    period: "2008 — 2013"
+    description: "Built and maintained enterprise web platforms for major consumer goods clients using .NET and Kentico CMS, along with SharePoint site development."
+    highlights:
+      - "Built P&G website using Kentico CMS with end-to-end .NET stack"
+      - "Developed and maintained SharePoint sites for enterprise collaboration"
+      - "Delivered scalable web solutions for large consumer-facing brands"
