@@ -161,6 +161,14 @@ a:hover { color: var(--color-primary); }
 .hero__highlight-label {
   font-size: 0.72rem; color: rgba(255,255,255,0.55); margin-top: 0.25rem; text-align: center;
 }
+.hero__domains {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; width: 100%;
+}
+.hero__domain-pill {
+  padding: 0.3rem 0.85rem; border-radius: 20px; font-size: 0.75rem; font-weight: 500;
+  color: rgba(255,255,255,0.85); background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.18); letter-spacing: 0.02em;
+}
 .hero__scroll {
   position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);
   display: flex; flex-direction: column; align-items: center; gap: 0.5rem; z-index: 1;
