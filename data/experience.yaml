@@ -41,15 +41,6 @@ items:
       - "Led architectural design for the Dual Ledger bond settlement project"
       - "Prepared comprehensive oracle business model comparison for CBDC systems"
 
-  - title: "Consultant — Full-Stack Architect"
-    company: "OGGN Inc. (ElevateXAI)"
-    period: "2020 — 2022"
-    description: "Built ElevateXAI from scratch — an AI readiness assessment platform helping organizations evaluate their preparedness for AI and GenAI adoption across healthcare, retail, and consumer goods."
-    highlights:
-      - "Designed end-to-end architecture using .NET backend and React frontend"
-      - "Defined deployment strategy and infrastructure approach"
-      - "Built assessment workflows for organizational AI maturity evaluation"
-
   - title: "Blockchain Lead"
     company: "Bank of Nova Scotia (Scotiabank)"
     period: "Sep 2017 — Aug 2019"
