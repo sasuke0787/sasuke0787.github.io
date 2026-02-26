@@ -12,9 +12,9 @@ categories:
   - name: "Healthcare & Integration"
     items: ["HL7", "DICOM-RT", "Mirth Connect", "IBM BPM", "FHIR"]
   - name: "AI & LLM Systems"
-    items: ["LangChain", "RAG", "Embeddings", "MCP", "Context Engineering", "MLOps"]
+    items: ["LangChain", "RAG", "Embeddings", "AWS Textract", "OCR & Document AI", "MCP", "Context Engineering", "MLOps"]
   - name: "APIs & Protocols"
-    items: ["REST", "GraphQL", "gRPC", "SOAP", "ERC-20", "ERC-721", "ERC-1155"]
+    items: ["REST", "GraphQL", "gRPC", "SOAP", "SendGrid", "ERC-20", "ERC-721", "ERC-1155"]
   - name: "DevOps & Observability"
     items: ["CI/CD", "Jenkins", "Datadog", "Sentry", "GitHub Actions"]
   - name: "Leadership & Practices"

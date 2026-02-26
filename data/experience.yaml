@@ -2,12 +2,15 @@ items:
   - title: "Senior Software Engineer"
     company: "Trestle"
     period: "Jan 2026 — Present"
-    description: "Owning end-to-end architecture and delivery of a production platform with strict reliability and operational requirements."
+    description: "Building TrestleAI — an AI-powered construction intelligence platform. Owning document intelligence, integration infrastructure, and end-to-end architecture for production systems."
     highlights:
+      - "Building Document Intelligence pipeline — AWS Textract for data extraction with AI-driven parsing and contextual enrichment, enabling GCs to surface critical data from construction documents"
+      - "Owning Document Integration component — connecting S3, SharePoint, and Box as document sources into the platform"
+      - "Owning Email Sync component — integrating email accounts via SendGrid inbound and email engine tooling to filter GC and vendor-relevant information"
       - "Designed event-driven backend workflows using TypeScript, Inngest, and Prisma"
       - "Led architecture reviews and technical decision-making with documented trade-offs"
       - "Built and improved CI/CD pipelines, reducing release risk and improving stability"
-      - "Operating production systems with full observability (Datadog, Sentry)"
+      - "Recognized for precision and organization in DevOps, documentation, and architecture delivery"
 
   - title: "Advisor & Engineering Leader"
     company: "Bank of International Settlements (seconded from Bank of Canada)"

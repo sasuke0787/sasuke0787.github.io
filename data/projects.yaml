@@ -1,4 +1,11 @@
 items:
+  - title: "TrestleAI — Construction Document Intelligence"
+    role: "Senior Software Engineer"
+    description: "Building an AI-powered document intelligence platform for the construction industry. Uses AWS Textract for OCR and data extraction, combined with AI-driven parsing to help general contractors surface critical information from construction documents, create pursuits, and connect with vendors through intelligent matching."
+    tech: ["TypeScript", "AWS Textract", "AI/ML", "Inngest", "Prisma", "S3", "SharePoint", "SendGrid"]
+    impact: "Owning three core components — Document Intelligence, Document Integration (S3/SharePoint/Box), and Email Sync — powering the AI-first experience for GCs and vendors on the platform."
+    link: ""
+
   - title: "Cloud-Native Settlement Platform"
     role: "Advisor & Engineering Leader"
     description: "Defined and executed engineering strategy for a modular settlement platform and ledger infrastructure at the Bank of International Settlements, designed for deterministic processing, auditability, and correctness guarantees."
