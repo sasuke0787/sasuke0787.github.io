@@ -61,6 +61,25 @@
   </div>
 </section>
 
+<!-- SKILLS SECTION -->
+<section class="section skills" id="skills">
+  <div class="container">
+    <h2 class="section__title">Skills & Technologies</h2>
+    <div class="skills__grid">
+      {{ range .Site.Data.skills.categories }}
+      <div class="skill-group">
+        <h3 class="skill-group__title">{{ .name }}</h3>
+        <div class="skill-group__items">
+          {{ range .items }}
+          <span class="skill-tag">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 <!-- PROJECTS SECTION -->
 <section class="section projects" id="projects">
   <div class="container">
@@ -145,25 +164,6 @@
           {{ end }}
           {{ if .team_size }}
           <span class="timeline__team">Team: {{ .team_size }}</span>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-<!-- SKILLS SECTION -->
-<section class="section skills" id="skills">
-  <div class="container">
-    <h2 class="section__title">Skills & Technologies</h2>
-    <div class="skills__grid">
-      {{ range .Site.Data.skills.categories }}
-      <div class="skill-group">
-        <h3 class="skill-group__title">{{ .name }}</h3>
-        <div class="skill-group__items">
-          {{ range .items }}
-          <span class="skill-tag">{{ . }}</span>
           {{ end }}
         </div>
       </div>
