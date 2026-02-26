@@ -1,4 +1,4 @@
-items:
+fulltime:
   - title: "TrestleAI — Construction Document Intelligence"
     role: "Senior Software Engineer"
     description: "Building an AI-powered document intelligence platform for the construction industry. Uses AWS Textract for OCR and data extraction, combined with AI-driven parsing to help general contractors surface critical information from construction documents, create pursuits, and connect with vendors through intelligent matching."
@@ -7,12 +7,27 @@ items:
     link: ""
 
   - title: "Cloud-Native Settlement Platform"
-    role: "Advisor & Engineering Leader"
+    role: "Advisor & Engineering Leader — BIS"
     description: "Defined and executed engineering strategy for a modular settlement platform and ledger infrastructure at the Bank of International Settlements, designed for deterministic processing, auditability, and correctness guarantees."
     tech: ["Kafka", "Cassandra", "Redis", "AKS", "CI/CD"]
     impact: "Achieved 10,000+ TPS throughput with full observability, serving as critical infrastructure for international financial settlement."
     link: ""
 
+  - title: "CBDC Dual Ledger Project"
+    role: "Fintech Researcher & Architect — Bank of Canada"
+    description: "Led architectural design for a consortium-driven bond settlement system using wholesale Central Bank Digital Currency at the Bank of Canada. Evaluated DLT and non-DLT implementation approaches."
+    tech: ["DLT", "Smart Contracts", "Oracle Systems", "Research"]
+    impact: "Delivered comprehensive feasibility analysis and oracle business model comparison informing CBDC implementation strategy."
+    link: ""
+
+  - title: "DLT Mortgage Insurance Tracing"
+    role: "Blockchain Lead — Scotiabank"
+    description: "Led technical development of a distributed ledger-based tracing mechanism for mortgage insurance payments at Scotiabank, in collaboration with Ontario financial institutions and Aviva Insurance."
+    tech: ["Ethereum", "Solidity", "Digital Wallets", "Hyperledger"]
+    impact: "Ensured transparency, security, and traceability in mortgage insurance across multiple institutions."
+    link: ""
+
+consulting:
   - title: "Ontario Radiation Treatment Repository"
     role: "Consultant — Technical Discovery Lead"
     description: "Led the technical discovery phase for Ontario Health's provincial radiation treatment repository (RT-r) — a centralized DICOM-RT platform for sharing radiation treatment records across all Ontario cancer centers. Hosted and facilitated convergence workshops with multiple centers including Kingston HSC and Thunder Bay."
@@ -26,6 +41,13 @@ items:
     tech: [".NET", "React", "Azure", "Assessment Workflows"]
     impact: "Delivered a complete end-to-end platform with architecture, deployment strategy, and assessment workflows for organizational AI maturity evaluation."
     link: "https://www.oggninc.com/#elevatexai"
+
+  - title: "JSM Composites — Drone Parts Platform"
+    role: "Freelance Consultant"
+    description: "Built a full customer-facing website and backend for a drone parts manufacturer. Developed Python tooling to parse CAD files and created an optimization algorithm to efficiently nest drone part orders onto material sheets, minimizing waste."
+    tech: ["Next.js", "Tailwind CSS", "shadcn/ui", "Python", "REST API", "Microservices"]
+    impact: "Delivered end-to-end platform from website to manufacturing optimization, all built on open-source tooling."
+    link: ""
 
   - title: "Plebis — Blockchain Governance Platform"
     role: "Founder & Chief Architect"
@@ -48,25 +70,11 @@ items:
     impact: "Shipped a production wallet across desktop (Windows, macOS, Linux) and mobile platforms, gaining hands-on cross-platform and mobile development experience."
     link: "https://github.com/sasuke0787/carpe"
 
-  - title: "CBDC Dual Ledger Project"
-    role: "Fintech Researcher & Architect"
-    description: "Led architectural design for a consortium-driven bond settlement system using wholesale Central Bank Digital Currency at the Bank of Canada. Evaluated DLT and non-DLT implementation approaches."
-    tech: ["DLT", "Smart Contracts", "Oracle Systems", "Research"]
-    impact: "Delivered comprehensive feasibility analysis and oracle business model comparison informing CBDC implementation strategy."
-    link: ""
-
-  - title: "DLT Mortgage Insurance Tracing"
-    role: "Blockchain Lead"
-    description: "Led technical development of a distributed ledger-based tracing mechanism for mortgage insurance payments at Scotiabank, in collaboration with Ontario financial institutions and Aviva Insurance."
-    tech: ["Ethereum", "Solidity", "Digital Wallets", "Hyperledger"]
-    impact: "Ensured transparency, security, and traceability in mortgage insurance across multiple institutions."
-    link: ""
-
-  - title: "JSM Composites — Drone Parts Platform"
-    role: "Freelance Consultant"
-    description: "Built a full customer-facing website and backend for a drone parts manufacturer. Developed Python tooling to parse CAD files and created an optimization algorithm to efficiently nest drone part orders onto material sheets, minimizing waste."
-    tech: ["Next.js", "Tailwind CSS", "shadcn/ui", "Python", "REST API", "Microservices"]
-    impact: "Delivered end-to-end platform from website to manufacturing optimization, all built on open-source tooling."
+  - title: "Rewire — Identity Management System"
+    role: "Hackathon Winner"
+    description: "Developed a blockchain-based identity management system at the Crypto Chicks Hackathon, winning first place for innovative use of decentralized identity."
+    tech: ["Blockchain", "Identity", "Smart Contracts"]
+    impact: "Winner of Crypto Chicks Hackathon 2019."
     link: ""
 
   - title: "Homelab — Self-Hosted Infrastructure"
@@ -74,11 +82,4 @@ items:
     description: "Self-hosted cloud and media infrastructure running at home. Nextcloud for private cloud storage and file sync, Jellyfin as a media server — demonstrating hands-on infrastructure, networking, and system administration skills."
     tech: ["Nextcloud", "Jellyfin", "Docker", "Linux", "Networking"]
     impact: "Hands-on infrastructure management outside of work, reinforcing systems thinking and self-reliance."
-    link: ""
-
-  - title: "Rewire — Identity Management System"
-    role: "Developer"
-    description: "Developed a blockchain-based identity management system at the Crypto Chicks Hackathon, winning first place for innovative use of decentralized identity."
-    tech: ["Blockchain", "Identity", "Smart Contracts"]
-    impact: "Winner of Crypto Chicks Hackathon 2019."
     link: ""

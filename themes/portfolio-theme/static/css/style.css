@@ -201,8 +201,21 @@ a:hover { color: var(--color-primary); }
 .domain-card__title { font-size: 1.15rem; font-weight: 600; color: var(--color-primary); margin-bottom: 0.5rem; }
 .domain-card__description { font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6; }
 
+/* --- Project Lanes --- */
+.projects__lanes {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem;
+}
+.projects__lane { }
+.projects__lane-title {
+  font-size: 1.05rem; font-weight: 600; color: var(--color-primary);
+  margin-bottom: 1.5rem; padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--color-accent);
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.projects__lane-icon { font-size: 1.2rem; }
+.projects__lane-cards { display: flex; flex-direction: column; gap: 1.25rem; }
+
 /* --- Project Cards --- */
-.projects__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.5rem; }
 .project-card {
   padding: 2rem; background: var(--color-bg-card); border-radius: 10px;
   border: 1px solid var(--color-border); transition: all 0.3s;
@@ -325,6 +338,7 @@ a:hover { color: var(--color-primary); }
   .hero__right { order: -1; }
   .hero__photo { width: 160px; height: 160px; }
   .hero__highlights { grid-template-columns: 1fr 1fr; }
+  .projects__lanes { grid-template-columns: 1fr; }
   .projects__grid { grid-template-columns: 1fr; }
   .contact__links { flex-direction: column; align-items: center; }
   .footer__content { flex-direction: column; gap: 1rem; text-align: center; }
