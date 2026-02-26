@@ -48,6 +48,20 @@ items:
     impact: "Ensured transparency, security, and traceability in mortgage insurance across multiple institutions."
     link: ""
 
+  - title: "JSM Composites — Drone Parts Platform"
+    role: "Freelance Consultant"
+    description: "Built a full customer-facing website and backend for a drone parts manufacturer. Developed Python tooling to parse CAD files and created an optimization algorithm to efficiently nest drone part orders onto material sheets, minimizing waste."
+    tech: ["Next.js", "Tailwind CSS", "shadcn/ui", "Python", "REST API", "Microservices"]
+    impact: "Delivered end-to-end platform from website to manufacturing optimization, all built on open-source tooling."
+    link: ""
+
+  - title: "Homelab — Self-Hosted Infrastructure"
+    role: "Personal Project"
+    description: "Self-hosted cloud and media infrastructure running at home. Nextcloud for private cloud storage and file sync, Jellyfin as a media server — demonstrating hands-on infrastructure, networking, and system administration skills."
+    tech: ["Nextcloud", "Jellyfin", "Docker", "Linux", "Networking"]
+    impact: "Hands-on infrastructure management outside of work, reinforcing systems thinking and self-reliance."
+    link: ""
+
   - title: "Rewire — Identity Management System"
     role: "Developer"
     description: "Developed a blockchain-based identity management system at the Crypto Chicks Hackathon, winning first place for innovative use of decentralized identity."

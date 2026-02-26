@@ -47,6 +47,17 @@ items:
       - "Defined deployment strategy and infrastructure approach"
       - "Built assessment workflows for organizational AI maturity evaluation"
 
+  - title: "Freelance Consultant — Full-Stack & CAD Optimization"
+    company: "JSM Composites"
+    period: "2024 — 2025"
+    description: "Built a customer-facing website and backend systems for a drone parts manufacturer, along with Python-based CAD processing tools and a material sheet optimization algorithm."
+    highlights:
+      - "Designed and built end-to-end website using Next.js, Tailwind CSS, and shadcn/ui"
+      - "Architected REST API backend with microservice architecture"
+      - "Built Python tooling to parse and interpret various CAD file formats"
+      - "Developed material sheet nesting/optimization algorithm to efficiently layout drone part orders"
+      - "Entire stack built on open-source tooling"
+
   - title: "Blockchain Lead"
     company: "Bank of Nova Scotia (Scotiabank)"
     period: "Sep 2017 — Aug 2019"
