@@ -11,7 +11,7 @@ theme = "portfolio-theme"
   github = "https://github.com/sasuke0787"
   linkedin = "https://www.linkedin.com/in/keerthinelaturu/"
   email = "nelaturuk@gmail.com"
-  resumeURL = "#"
+  resumeURL = "/Keerthi_Nelaturu_Resume.pdf"
 
 [menu]
   [[menu.main]]
