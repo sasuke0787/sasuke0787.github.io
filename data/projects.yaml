@@ -34,12 +34,12 @@ fulltime:
     impact: "Deployed a production insurance quoter serving RBC customers — still live and actively used years after launch."
     link: "https://www1.myrbcsso.rbcinsurance.com/ada/quoter?productType=auto&campaignID=SEMAON2&Lang=EN"
 
-  - title: "Enterprise Reporting & Data Visualization"
+  - title: "Digital Hive — Unified Analytics Catalog"
     role: "Technical Lead — Mark 3 Research"
-    description: "Built enterprise reporting and data visualization solutions for client projects using IBM Cognos, Qlik, and Tableau. Led mobile application prototyping and delivery using Node.js and Ionic."
-    tech: ["IBM Cognos", "Qlik", "Tableau", "Node.js", "Ionic"]
-    impact: "Delivered production reporting dashboards and mobile prototypes across multiple client engagements."
-    link: ""
+    description: "Contributed to building Digital Hive (formerly Theia), a unified analytics catalog platform that aggregates Tableau, Power BI, Qlik, Cognos, and other BI tools into a single no-code dashboard. Led mobile application prototyping and reporting solution delivery."
+    tech: ["IBM Cognos", "Qlik", "Tableau", "Node.js", "Ionic", "Analytics"]
+    impact: "Helped build what became a SOC 2-compliant analytics platform now used by enterprises to unify fragmented BI ecosystems."
+    link: "https://www.linkedin.com/company/digital-hive-portal/"
 
   - title: "Hospital BPM & Cancer Data Workflows"
     role: "Intern — Ottawa Hospital"
