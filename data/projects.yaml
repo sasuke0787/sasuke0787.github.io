@@ -20,6 +20,13 @@ fulltime:
     impact: "Delivered comprehensive feasibility analysis and oracle business model comparison informing CBDC implementation strategy."
     link: ""
 
+  - title: "Mano — Internal Blockchain Payments"
+    role: "Blockchain Lead — Scotiabank"
+    description: "Built Mano, an internal permissioned payment system on a private Ethereum network at Scotiabank's Digital Factory. Developed an experimental wallet with POS integration for the cafeteria, enabling real-time blockchain payments used daily by employees. Led blockchain evangelism roadshows across Scotiabank locations, educating teams and brainstorming use cases across departments."
+    tech: ["Ethereum", "Solidity", "Private Network", "POS Integration", "Digital Wallets"]
+    impact: "Deployed a live internal payments system used for real transactions, and drove blockchain awareness and adoption strategy across the organization."
+    link: ""
+
   - title: "DLT Mortgage Insurance Tracing"
     role: "Blockchain Lead — Scotiabank"
     description: "Led technical development of a distributed ledger-based tracing mechanism for mortgage insurance payments at Scotiabank, in collaboration with Ontario financial institutions and Aviva Insurance."

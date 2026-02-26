@@ -73,10 +73,11 @@ items:
   - title: "Blockchain Lead"
     company: "Bank of Nova Scotia (Scotiabank)"
     period: "Sep 2017 — Aug 2019"
-    description: "Designed system architecture, implemented smart contracts, and led DLT initiatives for internal payments and mortgage insurance tracing."
+    description: "Led blockchain strategy and engineering at Scotiabank's Digital Factory, from building production payment systems to driving organizational adoption across departments."
     highlights:
-      - "Built DLT-based mortgage insurance tracing across multiple institutions"
-      - "Evangelized blockchain across departments with technical and business workshops"
+      - "Built Mano — an internal permissioned payment system on private Ethereum with POS integration, used daily for real transactions in Digital Factory"
+      - "Led DLT-based mortgage insurance tracing across multiple financial institutions in collaboration with Aviva Insurance"
+      - "Ran blockchain evangelism roadshows across Scotiabank locations, brainstorming and validating use cases with different business streams"
       - "Collaborated with AI/ML team on credit card fraud detection"
     team_size: "Engineering team"
 
