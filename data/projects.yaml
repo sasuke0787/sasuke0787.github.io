@@ -61,7 +61,7 @@ consulting:
     description: "Advising on architecture and infrastructure for a cybersecurity posture assessment platform at OGGN Inc. Built the containerized deployment stack, proxy service, authentication flows with Keycloak SSO/MFA, and HTTPS termination via Nginx — serving enterprise clients including Lee Valley Tools."
     tech: ["Docker", "Nginx", "Keycloak", "Node.js", "React", "C#", "WSL", "SSL/TLS"]
     impact: "Delivered a demo-ready platform with SSO, MFA, and HTTPS — now being piloted with enterprise retail clients."
-    link: "https://posture.oggninc.com"
+    link: ""
 
   - title: "Ontario Radiation Treatment Repository"
     role: "Consultant — Technical Discovery Lead"
