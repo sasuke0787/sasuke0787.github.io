@@ -2,7 +2,7 @@ categories:
   - name: "Languages"
     items: ["TypeScript", "JavaScript", "Python", "Java", "C#", "Rust", "Go", "Solidity", "Move"]
   - name: "Frameworks & Libraries"
-    items: ["React", "Next.js", "Svelte", ".NET", "Spring Boot", "Node.js", "Angular", "Remix", "Ionic"]
+    items: ["React", "Next.js", "Svelte", "React Native", "Tauri", ".NET", "Spring Boot", "Node.js", "Angular", "Remix", "Tailwind CSS"]
   - name: "Blockchain & Web3"
     items: ["Ethereum", "EVM L2 Rollups", "Hardhat", "Hyperledger", "Corda", "Quorum", "ethers.js", "web3.js"]
   - name: "Cloud & Infrastructure"

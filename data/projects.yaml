@@ -11,7 +11,7 @@ items:
     description: "Led the technical discovery phase for Ontario Health's provincial radiation treatment repository (RT-r) — a centralized DICOM-RT platform for sharing radiation treatment records across all Ontario cancer centers. Hosted and facilitated convergence workshops with multiple centers including Kingston HSC and Thunder Bay."
     tech: ["DICOM-RT", "HL7", "Requirements Engineering", "Stakeholder Facilitation"]
     impact: "Aligned requirements across multiple cancer centers, designing the questionnaire framework and convergence process that shaped the repository's conceptual architecture."
-    link: "https://www.oggninc.com/#elevatexai"
+    link: ""
 
   - title: "ElevateXAI — AI Readiness Platform"
     role: "Consultant — Full-Stack Architect"
@@ -25,14 +25,21 @@ items:
     description: "Architected an AI-augmented governance layer for Cosmos-based blockchain ecosystems, integrating on-chain proposal data, off-chain signals, and LLM-based summarization workflows."
     tech: ["Kafka", "PostgreSQL", "LangChain", "RAG", "Remix"]
     impact: "Built decision-support modules using embeddings and retrieval-augmented generation, with reputation scoring models based on validator behavior."
-    link: ""
+    link: "https://pleb.is"
 
   - title: "OpenLibra Protocol"
     role: "Founding Engineer & Technical Leader"
     description: "Part of the founding engineering team building OpenLibra, an open-source fork of Facebook's Libra with an active mainnet token economy. Contributed to consensus, governance, and Move-based smart contracts."
     tech: ["Move", "Rust", "Distributed Systems", "Consensus"]
     impact: "Led architectural decisions within a global open-source community, balancing scalability, security, and decentralization."
-    link: ""
+    link: "https://github.com/sasuke0787/libra-framework"
+
+  - title: "Carpe — OpenLibra Wallet"
+    role: "Core Contributor"
+    description: "Built and contributed to Carpe, a cross-platform wallet for the OpenLibra network enabling account creation and coin management. Desktop app built with Svelte, Rust, and Tauri; mobile versions for Android and iOS built with React Native."
+    tech: ["Svelte", "Rust", "Tauri", "React Native", "TypeScript"]
+    impact: "Shipped a production wallet across desktop (Windows, macOS, Linux) and mobile platforms, gaining hands-on cross-platform and mobile development experience."
+    link: "https://github.com/sasuke0787/carpe"
 
   - title: "CBDC Dual Ledger Project"
     role: "Fintech Researcher & Architect"
