@@ -6,6 +6,20 @@ items:
     impact: "Achieved 10,000+ TPS throughput with full observability, serving as critical infrastructure for international financial settlement."
     link: ""
 
+  - title: "Ontario Radiation Treatment Repository"
+    role: "Consultant — Technical Discovery Lead"
+    description: "Led the technical discovery phase for Ontario Health's provincial radiation treatment repository (RT-r) — a centralized DICOM-RT platform for sharing radiation treatment records across all Ontario cancer centers. Hosted and facilitated convergence workshops with multiple centers including Kingston HSC and Thunder Bay."
+    tech: ["DICOM-RT", "HL7", "Requirements Engineering", "Stakeholder Facilitation"]
+    impact: "Aligned requirements across multiple cancer centers, designing the questionnaire framework and convergence process that shaped the repository's conceptual architecture."
+    link: "https://www.oggninc.com/#elevatexai"
+
+  - title: "ElevateXAI — AI Readiness Platform"
+    role: "Consultant — Full-Stack Architect"
+    description: "Built an AI readiness assessment platform from scratch for OGGN Inc., enabling organizations across healthcare, retail, and consumer goods to evaluate their preparedness for AI and GenAI adoption."
+    tech: [".NET", "React", "Azure", "Assessment Workflows"]
+    impact: "Delivered a complete end-to-end platform with architecture, deployment strategy, and assessment workflows for organizational AI maturity evaluation."
+    link: "https://www.oggninc.com/#elevatexai"
+
   - title: "Plebis — Blockchain Governance Platform"
     role: "Founder & Chief Architect"
     description: "Architected an AI-augmented governance layer for Cosmos-based blockchain ecosystems, integrating on-chain proposal data, off-chain signals, and LLM-based summarization workflows."

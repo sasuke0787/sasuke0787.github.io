@@ -21,6 +21,15 @@ items:
       - "Served as a judge for the G20 TechSprint"
     team_size: "Cross-functional squads"
 
+  - title: "Consultant — Technical Discovery & Architecture"
+    company: "OGGN Inc. (Ontario Health / Radiation Treatment Program)"
+    period: "2024"
+    description: "Led technical discovery for Ontario Health's provincial Radiation Treatment Repository (RT-r), a centralized DICOM-RT platform for radiation treatment data sharing across Ontario cancer centers."
+    highlights:
+      - "Hosted and facilitated requirements convergence workshops across multiple cancer centers (Kingston HSC, Thunder Bay)"
+      - "Designed technical discovery questionnaires covering workflow, data management, and infrastructure"
+      - "Aligned stakeholders from Ontario Health, OCINet, and radiotherapy facilities on architecture and implementation strategy"
+
   - title: "Fintech Researcher — CBDC Research"
     company: "Bank of Canada"
     period: "Apr 2021 — Jan 2023"
@@ -28,6 +37,15 @@ items:
     highlights:
       - "Led architectural design for the Dual Ledger bond settlement project"
       - "Prepared comprehensive oracle business model comparison for CBDC systems"
+
+  - title: "Consultant — Full-Stack Architect"
+    company: "OGGN Inc. (ElevateXAI)"
+    period: "2020 — 2022"
+    description: "Built ElevateXAI from scratch — an AI readiness assessment platform helping organizations evaluate their preparedness for AI and GenAI adoption across healthcare, retail, and consumer goods."
+    highlights:
+      - "Designed end-to-end architecture using .NET backend and React frontend"
+      - "Defined deployment strategy and infrastructure approach"
+      - "Built assessment workflows for organizational AI maturity evaluation"
 
   - title: "Blockchain Lead"
     company: "Bank of Nova Scotia (Scotiabank)"
@@ -54,3 +72,12 @@ items:
     highlights:
       - "Built reporting solutions using IBM Cognos, Qlik, and Tableau"
       - "Led mobile app development using Node.js and Ionic Framework"
+
+  - title: "Intern — Business Process & HL7 Integration"
+    company: "Ottawa Hospital"
+    period: "2013 — 2015"
+    description: "Developed and deployed business processes on IBM BPM for hospital operations. Built HL7 cancer-formatted data workflows using Mirth Connect for cancer treatment data integration."
+    highlights:
+      - "Introduced JavaScript expertise to the BPM development team"
+      - "Built HL7-formatted cancer data workflows using Mirth Connect"
+      - "Deployed IBM BPM business processes for hospital operational workflows"
