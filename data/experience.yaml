@@ -12,6 +12,17 @@ items:
       - "Built and improved CI/CD pipelines, reducing release risk and improving stability"
       - "Recognized for precision and organization in DevOps, documentation, and architecture delivery"
 
+  - title: "Advisor — InfoSecurity & Platform Architecture"
+    company: "OGGN Inc. (Cybersecurity Practice)"
+    period: "2025 — Present"
+    description: "Advising on architecture and infrastructure for OGGN's cybersecurity posture assessment platform, serving enterprise clients including Lee Valley Tools."
+    highlights:
+      - "Architected Docker-containerized deployment stack with Nginx reverse proxy, Keycloak SSO/MFA, and HTTPS termination on VPS"
+      - "Built proxy service layer for secure authentication flows and session management"
+      - "Set up production-ready infrastructure with WSL, Docker Compose, and SSL certificate management"
+      - "Evaluating enterprise identity providers (RedHat Keycloak, FusionAuth) for production deployment"
+      - "Leading code reviews and mentoring team on deployment, containerization, and Git workflows"
+
   - title: "Advisor & Engineering Leader"
     company: "Bank of International Settlements (seconded from Bank of Canada)"
     period: "Jan 2023 — Dec 2025"
