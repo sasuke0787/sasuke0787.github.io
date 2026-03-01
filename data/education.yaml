@@ -8,3 +8,8 @@ degrees:
     school: "University of Ottawa"
     period: "2013 — 2015"
     description: "Focused on distributed systems and software engineering fundamentals."
+
+  - degree: "Bachelor's in Computer Science"
+    school: "Osmania University, India"
+    period: "2004 — 2008"
+    description: "Foundation in computer science, algorithms, and software development."
