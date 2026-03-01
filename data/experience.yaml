@@ -70,7 +70,7 @@ items:
 
   - title: "Intern — Business Process & HL7 Integration"
     company: "Ottawa Hospital"
-    period: "Sep 2013 — Jun 2015"
+    period: "Sep 2014 — Jun 2015"
     description: "Developed and deployed business processes on IBM BPM for hospital operations. Built HL7 cancer-formatted data workflows using Mirth Connect for cancer treatment data integration."
     highlights:
       - "Introduced JavaScript expertise to the BPM development team"
