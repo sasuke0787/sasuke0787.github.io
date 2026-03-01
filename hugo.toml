@@ -35,9 +35,13 @@ theme = "portfolio-theme"
     url = "#experience"
     weight = 5
   [[menu.main]]
+    name = "Education"
+    url = "#education"
+    weight = 6
+  [[menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 6
+    weight = 7
 
 [markup]
   [markup.goldmark]

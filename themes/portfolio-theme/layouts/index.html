@@ -177,6 +177,42 @@
   </div>
 </section>
 
+<!-- EDUCATION SECTION -->
+<section class="section education" id="education">
+  <div class="container">
+    <h2 class="section__title">Education & Certifications</h2>
+    <div class="education__grid">
+      <div class="education__degrees">
+        <h3 class="education__group-title">Degrees</h3>
+        {{ range .Site.Data.education.degrees }}
+        <div class="education__card">
+          <h4 class="education__degree">{{ .degree }}</h4>
+          <span class="education__school">{{ .school }}</span>
+          <span class="education__period">{{ .period }}</span>
+          <p class="education__description">{{ .description }}</p>
+        </div>
+        {{ end }}
+      </div>
+      <div class="education__certs">
+        <h3 class="education__group-title">Certifications</h3>
+        {{ range .Site.Data.education.certifications }}
+        <div class="education__cert-item">
+          <span class="education__cert-name">{{ .name }}</span>
+          <span class="education__cert-meta">{{ .issuer }} · {{ .year }}</span>
+        </div>
+        {{ end }}
+        <h3 class="education__group-title" style="margin-top: 1.5rem;">Achievements</h3>
+        {{ range .Site.Data.education.achievements }}
+        <div class="education__cert-item">
+          <span class="education__cert-name">{{ .name }}</span>
+          <span class="education__cert-meta">{{ .description }}</span>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- CONTACT SECTION -->
 <section class="section contact" id="contact">
   <div class="container">
