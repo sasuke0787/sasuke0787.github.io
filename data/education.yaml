@@ -8,23 +8,3 @@ degrees:
     school: "University of Ottawa"
     period: "2013 — 2015"
     description: "Focused on distributed systems and software engineering fundamentals."
-
-certifications:
-  - name: "TOGAF 10 Enterprise Architect Foundation"
-    issuer: "The Open Group"
-    year: "2025"
-
-  - name: "TOGAF 10 Enterprise Architect Practitioner"
-    issuer: "The Open Group"
-    year: "In Progress"
-
-  - name: "Google Project Management Professional Certificate"
-    issuer: "Coursera"
-    year: "2024"
-
-achievements:
-  - name: "G20 TechSprint Judge"
-    description: "Evaluated emerging blockchain and fintech innovations for the G20."
-
-  - name: "Crypto Chicks Hackathon Winner"
-    description: "Developed Rewire — a blockchain-based identity management system (2019)."
