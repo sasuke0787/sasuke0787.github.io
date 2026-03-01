@@ -26,7 +26,7 @@ items:
 
   - title: "Professor — Blockchain Development Program"
     company: "George Brown College"
-    period: "2023 — 2025"
+    period: "Sep 2023 — Jun 2025"
     description: "Taught in the Blockchain Development program, leading courses on advanced smart contracts, DevOps in blockchain, and building scalable blockchain applications."
     highlights:
       - "Led Advanced Smart Contracts course covering Solidity patterns, security, and optimization"
@@ -70,7 +70,7 @@ items:
 
   - title: "Intern — Business Process & HL7 Integration"
     company: "Ottawa Hospital"
-    period: "2013 — 2015"
+    period: "Sep 2013 — Jun 2015"
     description: "Developed and deployed business processes on IBM BPM for hospital operations. Built HL7 cancer-formatted data workflows using Mirth Connect for cancer treatment data integration."
     highlights:
       - "Introduced JavaScript expertise to the BPM development team"
@@ -79,7 +79,7 @@ items:
 
   - title: "Senior Software Engineer"
     company: "Accenture"
-    period: "2008 — 2013"
+    period: "Aug 2008 — Dec 2013"
     description: "Built and maintained enterprise web platforms for major consumer goods clients using .NET and Kentico CMS, along with SharePoint site development."
     highlights:
       - "Built P&G website using Kentico CMS with end-to-end .NET stack"
